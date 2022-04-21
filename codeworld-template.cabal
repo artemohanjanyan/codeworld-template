@@ -4,6 +4,7 @@ version:            0.1.0.0
 
 executable codeworld-template
     main-is:          Main.hs
+    other-modules:    Coord
     build-depends:    base
                     , codeworld-api ^>=0.7.0
     hs-source-dirs:   app

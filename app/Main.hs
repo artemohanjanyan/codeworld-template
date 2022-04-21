@@ -1,6 +1,8 @@
 module Main where
 
+import Coord
+
 import CodeWorld
 
 main :: IO ()
-main = drawingOf (solidCircle 1)
+main = print (Coord 1)
